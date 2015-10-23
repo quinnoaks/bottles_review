@@ -1,5 +1,5 @@
-describe('leapYear', function() {
-  it("is false for a year that is not divisible by 4", function() {
-    expect(leapYear(1999)).to.equal(false);
+describe('beerWall', function() {
+  it("is true for numbers 1-99", function() {
+    expect(beerWall(57)).to.equal(true);
   });
 });
